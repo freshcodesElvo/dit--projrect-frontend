@@ -12,7 +12,8 @@
   "dependencies": {
     "autoprefixer": "^10.4.20",
     "bootstrap": "^5.3.3",
-    "dart-sass": "^1.25.0"
+    "dart-sass": "^1.25.0",
+    "postcss-cli": "^11.0.0"
   },
   "devDependencies": {
     "sass": "^1.81.0"
