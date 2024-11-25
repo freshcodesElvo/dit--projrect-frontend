@@ -11847,7 +11847,14 @@ textarea.form-control-lg {
 body {
   background-color: #181818;
 }
-body .hero-section h1 {
+body .hero-section .hero-section-left {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-top: 4em;
+}
+body .hero-section .hero-section-left h1 {
   font-family: "Montserrat Alternates", sans-serif;
   font-family: "Montserrat Alternates";
   font-style: normal;
@@ -11856,7 +11863,7 @@ body .hero-section h1 {
   text-align: center;
   color: #C8C8C8;
 }
-body .hero-section p { /* Search thousands of listings. Personalized recommendations. Seamless booking. */
+body .hero-section .hero-section-left p { /* Search thousands of listings. Personalized recommendations. Seamless booking. */
   font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -11864,22 +11871,37 @@ body .hero-section p { /* Search thousands of listings. Personalized recommendat
   line-height: 30px;
   text-align: center;
   color: #838383;
+  margin-top: 1em;
 }
 body .hero-section .hero-section-left button { /* Frame 4 */
   box-sizing: border-box;
-  /* Auto layout */
-  display: flex;
-  flex-direction: row;
   justify-content: center;
   align-items: center;
-  padding: 10px;
+  padding: 10px 30px;
   gap: 10px;
-  position: absolute;
-  width: 207px;
-  height: 50px;
-  left: 278px;
   border: 2px solid #39FFF3;
   border-radius: 25px;
+  margin-top: 4em; /* Start your search */
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1rem;
+  line-height: 19px;
+  color: #FFFFFF;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+body .hero-section .image-section img {
+  border-radius: 10px;
+}
+
+.navbar .navbar-brand img {
+  width: 2em;
+}
+.navbar .profile {
+  font-size: 2em;
+  color: aliceblue;
 }
 
 /*# sourceMappingURL=style.css.map */

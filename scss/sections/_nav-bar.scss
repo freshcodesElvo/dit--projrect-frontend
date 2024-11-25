@@ -1,0 +1,13 @@
+@use '../custom' as*;
+.navbar{
+    .navbar-brand{
+        img{
+            width: 2em;
+        }
+    }
+    .profile{
+        font-size: 2em;
+        color: aliceblue;
+
+    }
+}
