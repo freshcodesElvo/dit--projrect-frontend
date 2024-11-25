@@ -9,26 +9,52 @@ body{
             align-items: center;
             justify-content: center;
             padding-top: 4em;
+            @include media-breakpoint-down(lg){
+                padding-top: 1em;
+            }
+            .chat-icon-svg{
+                ion-icon{
+                    font-size: 4em;
+                    color: #39FFF3;
+                    @include media-breakpoint-down(lg){
+                        font-size: 3em;
+                    }
+                    
+                }
+            }
             
             h1{
                 font-family: "Montserrat Alternates", sans-serif;
                 font-family: 'Montserrat Alternates';
                 font-style: normal;
                 font-weight: 800;
-                font-size: 60px;
+                font-size: 3em;
                 text-align: center;
                 color: #C8C8C8;
+                max-width: 10em;
+                margin-top: .5em;
+                @include media-breakpoint-down(xl){
+                    font-size: 2em;
+                }
+                @include media-breakpoint-down(lg){
+                    font-size: 1.8em;
+                    margin-top: .1em;
+                }
+            
             }
             p{/* Search thousands of listings. Personalized recommendations. Seamless booking. */   
           
                 font-family: 'Inter', sans-serif;
                 font-style: normal;
                 font-weight: 400;
-                font-size: 25px;
-                line-height: 30px;
+                font-size: 1.2rem;
+                max-width: 20rem;
                 text-align: center;
                 color: #838383;
                 margin-top: 1em;
+                @include media-breakpoint-down(xl){
+                    font-size: 1rem;
+                }
             }
             
             button{/* Frame 4 */
@@ -39,10 +65,7 @@ body{
                 gap: 10px;
                 border: 2px solid #39FFF3;
                 border-radius: 25px;
-                margin-top: 4em;/* Start your search */
-
-            
-                
+                margin-top: 4em;
                 font-family: 'Inter';
                 font-style: normal;
                 font-weight: 500;
@@ -52,15 +75,17 @@ body{
                 flex: none;
                 order: 0;
                 flex-grow: 0;
-                
-                
-                
-                
-    
+                @include media-breakpoint-down(xl){
+                    font-size: .9rem;
+                    margin-top: 2em;
+                    padding: 7px 27px;
+                }
             }
-
         }
         .image-section{
+            @include media-breakpoint-down(md){
+                padding-top: 2em;
+            }
             img{
                 border-radius: 10px;
             }
