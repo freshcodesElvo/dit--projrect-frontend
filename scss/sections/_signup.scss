@@ -3,23 +3,70 @@ body {
     background-color: #1a1a1a;
     color: #fff;
     padding-top: 2em;
+    .sign-up-container{
+        @include media-breakpoint-down(sm){
+            flex-wrap: wrap-reverse;
+        }
+        
+    }
 }
 .sign-up-left{
+    display: flex;
+    flex-direction: column;
     padding-top: 1em;
-    img{
+    gap: 1em;
+    .sign-up-img-1{
         height: 80vh;
         border-radius: 10px;
+        
+        @include media-breakpoint-down(xl){
+            height: 35vh;
+        }
+        @include media-breakpoint-down(md){
+            height: 70vh;
+       
+        }
+        @include media-breakpoint-down(sm){
+            height: 50vh;
+       
+        }
+    }
+    .sign-up-img-2{
+        display: none;
+        @include media-breakpoint-down(xl){
+            display: block;
+            height: 35vh;
+            border-radius: 10px;
+        }
+        @include media-breakpoint-down(md){
+            display: none;
+       
+        }
     }
 }
 .sign-up-right{
     padding-left: 5em;
+    @include media-breakpoint-down(xl){
+        padding-left: 2em;
+    }
+    @include media-breakpoint-down(md){
+        padding-left: 1em;
+    }
 }
 .names-top{
     gap: 2em;
     margin-top: 1.2em;
+   
+    @include media-breakpoint-down(sm){
+        flex-direction: column;
+        gap: 0em;
+    }
 }
 .form-container {
     max-width: 70%;
+    @include media-breakpoint-down(xl){
+        max-width: 100%;
+    }
     border-radius: 10px;
     .have-an-account{
         margin-top: 2em;

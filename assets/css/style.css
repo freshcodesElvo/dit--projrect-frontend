@@ -11953,27 +11953,86 @@ body {
   color: #fff;
   padding-top: 2em;
 }
+@media (max-width: 575.98px) {
+  body .sign-up-container {
+    flex-wrap: wrap-reverse;
+  }
+}
 
 .sign-up-left {
+  display: flex;
+  flex-direction: column;
   padding-top: 1em;
+  gap: 1em;
 }
-.sign-up-left img {
+.sign-up-left .sign-up-img-1 {
   height: 80vh;
   border-radius: 10px;
+}
+@media (max-width: 1199.98px) {
+  .sign-up-left .sign-up-img-1 {
+    height: 35vh;
+  }
+}
+@media (max-width: 767.98px) {
+  .sign-up-left .sign-up-img-1 {
+    height: 70vh;
+  }
+}
+@media (max-width: 575.98px) {
+  .sign-up-left .sign-up-img-1 {
+    height: 50vh;
+  }
+}
+.sign-up-left .sign-up-img-2 {
+  display: none;
+}
+@media (max-width: 1199.98px) {
+  .sign-up-left .sign-up-img-2 {
+    display: block;
+    height: 35vh;
+    border-radius: 10px;
+  }
+}
+@media (max-width: 767.98px) {
+  .sign-up-left .sign-up-img-2 {
+    display: none;
+  }
 }
 
 .sign-up-right {
   padding-left: 5em;
+}
+@media (max-width: 1199.98px) {
+  .sign-up-right {
+    padding-left: 2em;
+  }
+}
+@media (max-width: 767.98px) {
+  .sign-up-right {
+    padding-left: 1em;
+  }
 }
 
 .names-top {
   gap: 2em;
   margin-top: 1.2em;
 }
+@media (max-width: 575.98px) {
+  .names-top {
+    flex-direction: column;
+    gap: 0em;
+  }
+}
 
 .form-container {
   max-width: 70%;
   border-radius: 10px;
+}
+@media (max-width: 1199.98px) {
+  .form-container {
+    max-width: 100%;
+  }
 }
 .form-container .have-an-account {
   margin-top: 2em;
