@@ -1,0 +1,75 @@
+@use '../custom' as*;
+body {
+    background-color: #1a1a1a;
+    color: #fff;
+    padding-top: 2em;
+}
+.sign-up-left{
+    padding-top: 1em;
+    img{
+        height: 80vh;
+        border-radius: 10px;
+    }
+}
+.sign-up-right{
+    padding-left: 5em;
+}
+.names-top{
+    gap: 2em;
+}
+.form-container {
+    max-width: 70%;
+    border-radius: 10px;
+    .have-an-account{
+        margin-top: 1em;
+    }
+}
+
+.form-group {
+    margin-bottom: 20px;
+    .form-control{/* Rectangle 2 */
+        box-sizing: border-box;
+        background: transparent;
+        border: 1px solid #887DB5;
+        border-radius: 5px;
+        
+
+    }
+}
+.btn-primary {
+    background-color: #673AB7;
+    border-color: #673AB7;
+}
+
+.btn-primary:hover {
+    background-color: #8e54e9;
+    border-color: #8e54e9;
+}
+
+.google-btn {
+    background-color: #fff;
+    border-color: #fff;
+    color: #4285F4;
+    padding: 10px 20px;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1em;
+    font-size: 1.2em;
+}
+
+.google-btn:hover {
+    background-color: #f0f0f0;
+}
+
+.back-to-chat {
+    text-align: center;
+    margin-top: 20px;
+}
+.submit-details{
+    width: 100%     ;
+}
+.or-register{
+    margin-top: 1em;
+}

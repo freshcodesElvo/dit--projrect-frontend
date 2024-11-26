@@ -2,7 +2,6 @@
 body{
     background-color: #181818;
     .hero-section{
-       
         .hero-section-left{
             display: flex;
             flex-direction: column;
@@ -19,10 +18,8 @@ body{
                     @include media-breakpoint-down(lg){
                         font-size: 3em;
                     }
-                    
                 }
             }
-            
             h1{
                 font-family: "Montserrat Alternates", sans-serif;
                 font-family: 'Montserrat Alternates';
@@ -40,7 +37,6 @@ body{
                     font-size: 1.8em;
                     margin-top: .1em;
                 }
-            
             }
             p{/* Search thousands of listings. Personalized recommendations. Seamless booking. */   
           
@@ -56,7 +52,6 @@ body{
                     font-size: 1rem;
                 }
             }
-            
             button{/* Frame 4 */
                 box-sizing: border-box;
                 justify-content: center;
