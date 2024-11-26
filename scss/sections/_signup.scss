@@ -16,27 +16,30 @@ body {
 }
 .names-top{
     gap: 2em;
+    margin-top: 1.2em;
 }
 .form-container {
     max-width: 70%;
     border-radius: 10px;
     .have-an-account{
-        margin-top: 1em;
+        margin-top: 2em;
     }
 }
 
 .form-group {
     margin-bottom: 20px;
     .form-control{/* Rectangle 2 */
+        padding: 10px;
         box-sizing: border-box;
         background: transparent;
         border: 1px solid #887DB5;
         border-radius: 5px;
-        
-
     }
 }
-.btn-primary {
+.btn-primary {/* Frame 1 */
+    padding: 10px;
+    background: #6E54B5;
+    border-radius: 5px;
     background-color: #673AB7;
     border-color: #673AB7;
 }
