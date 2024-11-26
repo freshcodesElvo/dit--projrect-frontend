@@ -79,21 +79,24 @@ body {
         padding: 10px;
         box-sizing: border-box;
         background: transparent;
-        border: 1px solid #887DB5;
+        border: 1px solid #39FFF3;
         border-radius: 5px;
+        color: #fff;
     }
 }
 .btn-primary {/* Frame 1 */
     padding: 10px;
-    background: #6E54B5;
+    background: #39FFF3;
     border-radius: 5px;
-    background-color: #673AB7;
-    border-color: #673AB7;
+    background-color: #39FFF3;
+    border-color: #39FFF3;
+    color: #1a1a1a;
 }
 
 .btn-primary:hover {
-    background-color: #8e54e9;
-    border-color: #8e54e9;
+    background-color: #39FFF3;
+    border-color: #39FFF3;
+    
 }
 
 .google-btn {
@@ -122,4 +125,11 @@ body {
 }
 .or-register{
     margin-top: 1em;
+}
+.back-to-chat{
+    a{
+        color: #39FFF3;
+
+    }
+  
 }
