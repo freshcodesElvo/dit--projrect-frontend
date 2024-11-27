@@ -1,13 +1,25 @@
 @use '../custom' as*;
 body {
+
     background-color: #1a1a1a;
     color: #fff;
     padding-top: 2em;
+    
     .sign-up-container{
         @include media-breakpoint-down(sm){
             flex-wrap: wrap-reverse;
         }
         
+    }
+}
+.log-in-swap{
+    gap: 0;
+    
+    flex-direction: row-reverse;
+    .sign-up-left{
+        // margin-left: -10em;
+   
+
     }
 }
 .sign-up-left{

@@ -11959,6 +11959,10 @@ body {
   }
 }
 
+.log-in-swap {
+  gap: 0;
+  flex-direction: row-reverse;
+}
 .sign-up-left {
   display: flex;
   flex-direction: column;
