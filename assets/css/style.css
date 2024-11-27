@@ -12118,9 +12118,23 @@ body {
   height: 100vh;
   background-color: #1c1c1c;
   padding-top: 20px;
+  gap: 1em;
 }
 
-.sidebar .nav-link {
+.sidebar .nav-link { /* Frame 5 */
+  /* Auto layout */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  gap: 10px;
+  width: 186px;
+  height: 46px;
+  left: 30px;
+  top: 86px;
+  background: #232323;
+  border-radius: 10px;
   color: #ffffff;
 }
 
@@ -12155,6 +12169,14 @@ body {
 
 .card-body {
   color: #ffffff;
+}
+.card-body .card-text {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #666666;
 }
 
 .x {
