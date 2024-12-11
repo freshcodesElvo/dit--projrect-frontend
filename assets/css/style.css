@@ -12153,8 +12153,10 @@ body {
 .search-box { /* Rectangle 7 */
   height: 76px;
   background: #181818;
-  border: 1px solid #1BC9FA;
+  border: 0;
+  outline: none;
   border-radius: 5px;
+  width: 70%;
 }
 
 .search-box::placeholder {
@@ -12213,12 +12215,13 @@ body {
 .input-group {
   margin-top: 5em;
   width: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-@media (max-width: 767.98px) {
-  .input-group {
-    width: 100%;
-    margin-top: -2em;
-  }
+.input-group .search-button {
+  font-size: 1.3em;
+  border-radius: 50%;
 }
 
 /*# sourceMappingURL=style.css.map */
